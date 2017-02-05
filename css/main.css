@@ -14,9 +14,23 @@ h2, h3 {
   letter-spacing: -0.025em;
 }
 
-.jumbotron {
+h1 > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.jumbotron, .page-header {
   color: #fff;
   background-color: #337ab7;
+}
+
+.page-header {
+  margin-top: 0;
 }
 
 .homepage {
@@ -32,6 +46,11 @@ h2, h3 {
 img.logo {
   width: 12rem;
   height: 12rem;
+}
+
+.page-header .logo {
+  width: 6rem;
+  height: 6rem;
 }
 
 .terms > a {
