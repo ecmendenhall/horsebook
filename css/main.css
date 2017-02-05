@@ -2,6 +2,18 @@
    Author's custom styles
    ========================================================================== */
 
+h1, h2, h3 {
+  font-family: Lucida Grande, Tahoma, Sans-Serif;
+}
+
+h1 {
+  letter-spacing: -0.075em;
+}
+
+h2, h3 {
+  letter-spacing: -0.025em;
+}
+
 .jumbotron {
   color: #fff;
   background-color: #337ab7;
@@ -12,12 +24,19 @@
   background-image: linear-gradient(#fff, #9cc2e3 80%);
 }
 
+.logo-container {
+  padding: 1rem;
+  margin-right: 1rem;
+}
 
+img.logo {
+  width: 12rem;
+  height: 12rem;
+}
 
-
-
-
-
+.terms > a {
+  margin-left: 1em;
+}
 
 
 
