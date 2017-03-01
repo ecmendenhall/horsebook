@@ -58,9 +58,12 @@ img.logo {
 }
 
 img.small-thumbnail {
-  max-width: 5rem;
+  max-width: 6rem;
 }
 
+.profile-thumbnails > img {
+  display: inline;
+}
 
 
 
