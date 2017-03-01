@@ -57,7 +57,9 @@ img.logo {
   margin-left: 1em;
 }
 
-
+img.small-thumbnail {
+  max-width: 5rem;
+}
 
 
 
